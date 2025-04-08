@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "enter first number"
+read a
+echo "enter second number"
+read b
+echo "enter third number"
+read c
+if [[ $a -gt $b && $a -gt $c ]]
+then
+        echo "$a greater "
+elif [[ $b -gt $c && $b -gt $a ]]
+then
+        echo "$b greater"
+else
+        echo "$c greater"
+fi
