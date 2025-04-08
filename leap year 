@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read -p "Enter a year: " y
+(( (y % 400 == 0) || (y % 4 == 0 && y % 100 != 0) )) && echo "$y is a Leap Year." || echo "$y is NOT a Leap Year."
