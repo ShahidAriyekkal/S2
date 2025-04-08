@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "enter a number"
+read a
+echo "enter a number"
+read b
+if [ $a == $b ]
+then
+        echo "$b is equal to  $a"
+else
+        echo "$a not equal to $b"
+
+fi
