@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "enter first side of the triangle" read a
+echo "enter second side of the triangle" read b
+echo "enter third side of the triangle" read c
+if［$a-$b18&［
+$b == $c ]
+then
+echo "the triangle is equilateral"
+elif [ $a == $b] || [ $A -=$C] || [ $B = $C ]
+then
+echo "the triangle is isosless triangle"
+else
+echo " triangle is scalene triangle"
+fi
